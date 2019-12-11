@@ -4,7 +4,7 @@ let tweetHtml = "";
 tweetHtml = "<ul>";
 let i = 0;
 while (i < tweets.length) {
-  tweetHtml = tweetHtml + "<li>"
+  tweetHtml = tweetHtml + "<li class='list-unstyled'>"
       + "<img src =" +tweets[i].avatar + ">"
       + "<b>" + tweets[i].name + "</b>"
       + tweets[i].message
@@ -23,7 +23,7 @@ function doAll() {
   tweetHtml = "<ul>";
   let i = 0;
   while (i < tweets.length) {
-    tweetHtml = tweetHtml + "<li>"
+    tweetHtml = tweetHtml + "<li  class='list-unstyled'>"
         + "<img src =" +tweets[i].avatar + ">"
         + "<b>" + tweets[i].name + "</b>"
         + tweets[i].message
@@ -46,7 +46,7 @@ function doSaburou() {
 
     if (tweets[i].name == "三郎BOT") {
 
-      tweetHtml = tweetHtml + "<li>"
+      tweetHtml = tweetHtml + "<li  class='list-unstyled'>"
           + "<img src =" + tweets[i].avatar + ">"
           + "<b>" + tweets[i].name + "</b>"
           + tweets[i].message
@@ -70,7 +70,7 @@ function dozirou() {
 
     if (tweets[i].name == "次郎") {
 
-      tweetHtml = tweetHtml + "<li>"
+      tweetHtml = tweetHtml + "<li  class='list-unstyled'>"
           + "<img src =" + tweets[i].avatar + ">"
           + "<b>" + tweets[i].name + "</b>"
           + tweets[i].message
@@ -86,15 +86,15 @@ function dozirou() {
 function doTaro() {
   let tweetHtml = "";
 
-  tweetHtml = "<ul>";
+  tweetHtml = "<ul >";
 
   let i=0;
   while(i<tweets.length) {
 
     if (tweets[i].name == "太郎") {
 
-      tweetHtml = tweetHtml + "<li>"
-          + "<img src =" + tweets[i].avatar + ">"
+      tweetHtml = tweetHtml + "<li  class='list-unstyled'>"
+          + "<img src =" + tweets[i].avatar + " >"
           + "<b>" + tweets[i].name + "</b>"
           + tweets[i].message
           + tweets[i].tweetedAt
