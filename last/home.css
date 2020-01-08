@@ -1,0 +1,31 @@
+div.hed{
+  background: #95ebb2;
+}
+h1.hed{
+  font-size: 100px;
+  font-family: "Adobe Devanagari";
+}
+.menu{
+  text-align: right;
+}
+p.menu{
+
+  display: inline-block;
+
+}
+div.instagram{
+  background: rgba(175,52,240,0.37);
+}
+li.instagram{
+  display: inline-block;
+  margin: 30px;
+
+}
+.instagram{
+  font-family: "Adobe Devanagari";
+  font-size: 12px;
+}
+img.instagram{
+  width:200px;
+  height: 200px;
+}
