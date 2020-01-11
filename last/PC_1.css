@@ -6,25 +6,36 @@
 
   h1 {
     margin: 0;
-    padding: 10px;
+
   }
 
   header {
-    background: #95ebb2;
+    background: #fec4b9;
     font-size: 50px;
-    font-family: "Adobe Devanagari";
+    font-family: "HG教科書体";
     height: 250px;
     width: auto;
   }
 
   .menu {
     text-align: right;
+    margin-bottom: 145px;
   }
 
   .botaaa {
     margin-right: 20px;
     display: inline-block;
     margin-top: -30px;
+    padding: 10px 10px;
+    text-decoration: none;
+    color: rgba(38, 38, 38, 0.98);
+    border: solid 2px rgb(38, 38, 38);
+    border-radius: 3px;
+    transition: .4s;
+  }
+  .botaaa:hover {
+    background: #67c5ff;
+    color: white;
   }
 
 

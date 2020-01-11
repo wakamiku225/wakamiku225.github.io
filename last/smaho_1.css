@@ -13,15 +13,16 @@
 
   h1 {
     margin: 0;
-    padding: 10px;
-    font-size: 60px;
+    padding: 15px;
+    font-size: 55px;
     text-align: center;
   }
 
   header {
-    background: #95ebb2;
+    background: #fec4b9;
     font-size: 15px;
     font-family: "HG教科書体";
+    height: 150px;
 
   }
 
@@ -30,9 +31,22 @@
   }
 
   .botaaa {
-    margin-right: 20px;
+    margin-right: 10px;
     display: inline-block;
-    margin-top: -30px;
+    margin-top: 20px;
+    display: inline-block;
+    padding: 10px 10px;
+    text-decoration: none;
+    color: rgba(38, 38, 38, 0.98);
+    border: solid 2px rgb(38, 38, 38);
+    border-radius: 3px;
+  transition: .4s;
+}
+
+
+  .botaaa:hover {
+    background: #67c5ff;
+    color: white;
   }
 
 
