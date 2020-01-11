@@ -16,7 +16,7 @@ fetch('https://graph.facebook.com/v3.0/17841427624640862?fields=name%2Cmedia.lim
                   +"<br>"
                   + "<i class='instagram'>" + json.media.data[i].caption+ "</i>"
                   +"<br>"
-                  +"<a href=" + json.media.data[i].permalink +">" + json.media.data[i].permalink +"</a>"
+                  +"<a class='btn-gradient-3d-orange' href=" + json.media.data[i].permalink +">" +json.media.data[i].username+"</a>"
                   + "</li>";
 
               i++;
