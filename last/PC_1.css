@@ -1,7 +1,14 @@
-@media print, screen and (min-width: 76mm) {
-  body {
-    background: #ffedc1;
+@media print, screen and (min-width: 640px) {
+  body{
     margin: 0;
+  }
+  header {
+    margin: 0;
+    background: #fec4b9;
+    font-size: 20px;
+    font-family: "HG教科書体";
+    height: 100px;
+    width: auto;
   }
 
   h1 {
@@ -9,17 +16,9 @@
 
   }
 
-  header {
-    background: #fec4b9;
-    font-size: 50px;
-    font-family: "HG教科書体";
-    height: 250px;
-    width: auto;
-  }
-
   .menu {
     text-align: right;
-    margin-bottom: 145px;
+    margin-bottom:0;
   }
 
   .botaaa {
@@ -37,77 +36,83 @@
     background: #67c5ff;
     color: white;
   }
-
-
-  div.instagram {
-    background: rgba(175, 52, 240, 0.37);
-  }
-
-  li.instagram {
-    display: inline-block;
-    margin: 30px;
-
-  }
-
-  .instagram {
-    font-family: "Adobe Devanagari";
-    font-size: 12px;
-  }
-
-  img.instagram {
-    width: 200px;
+  .cp_cssslider {
+    width: 300px;
     height: 200px;
+    overflow: hidden;
+    margin: 2em auto;
+    border: 10px solid #ffffff;
+    box-shadow:0px 0px 5px 0px rgba(0,0,0,0.5);
+  }
+  .cp_slide_item {
+    width: 300px;
+    height: 200px;
+    float: left;
+    position: relative;
+  }
+  .cp_slidewrapper {
+    width: 500%;/* slideの枚数×100% */
+    position: relative;
+    left: 0;
+    animation: slider 20s infinite ease;/* スピード */
+  }
+  @-webkit-keyframes slider {
+    /* 100%を枚数で割った%に割り振る */
+    0% {
+      -webkit-transform: translateX(0);
+      transform: translateX(0);
+    }
+    20% {
+      -webkit-transform: translateX(-300px);
+      transform: translateX(-300px);
+    }
+    40% {
+      -webkit-transform: translateX(-600px);
+      transform: translateX(-600px);
+    }
+    60% {
+      -webkit-transform: translateX(-900px);
+      transform: translateX(-900px);
+    }
+    80% {
+      -webkit-transform: translateX(-1200px);
+      transform: translateX(-1200px);
+    }
+    100% {
+      -webkit-transform: translateX(0);
+      transform: translateX(0);
+    }
+  }
+  @keyframes slider {
+    /* 100%を枚数で割った%に割り振る */
+    0% {
+      -webkit-transform: translateX(0);
+      transform: translateX(0);
+    }
+    20% {
+      -webkit-transform: translateX(-300px);
+      transform: translateX(-300px);
+    }
+    40% {
+      -webkit-transform: translateX(-600px);
+      transform: translateX(-600px);
+    }
+    60% {
+      -webkit-transform: translateX(-900px);
+      transform: translateX(-900px);
+    }
+    80% {
+      -webkit-transform: translateX(-1200px);
+      transform: translateX(-1200px);
+    }
+    100% {
+      -webkit-transform: translateX(0);
+      transform: translateX(0);
+    }
   }
 
-  .btn-social-long-facebook {
-    color: #FFF; /*文字・アイコン色*/
-    border-radius: 7px; /*角丸に*/
-    display: inline-block;
-    height: 50px; /*高さ*/
-    width: 190px; /*幅*/
-    text-align: center; /*中身を中央寄せ*/
-    font-size: 25px; /*文字のサイズ*/
-    font-family: "Franklin Gothic Demi";
-    line-height: 50px; /*高さと合わせる*/
-    background: #4966a0;
-    overflow: hidden; /*はみ出た部分を隠す*/
-    text-decoration: none; /*下線は消す*/
+
+  h2{
+    font-family: はんなり明朝;
   }
-
-  .btn-social-long-facebook .fa-facebook {
-    text-shadow: 2px 2px 1px #224282;
-    font-size: 30px;
-  }
-
-  .btn-social-long-facebook span {
-    /*テキスト*/
-    display: inline-block;
-    transition: .5s;
-  }
-
-  .btn-social-long-facebook:hover span {
-    /*ホバーで一周回転*/
-    -webkit-transform: rotateX(360deg);
-    transform: rotateX(360deg);
-  }
-
-
-  .btn-gradient-3d-orange {
-    display: inline-block;
-    padding: 0.5em 1em;
-    text-decoration: none;
-    border-radius: 4px;
-    color: #ffffff;
-    background-image: linear-gradient(45deg, #FFC107 0%, #c03eff 100%);
-    box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.29);
-    border-bottom: solid 3px #c58668;
-  }
-
-  .btn-gradient-3d-orange:active {
-    -webkit-transform: translateY(4px);
-    transform: translateY(4px);
-    box-shadow: 0px 0px 1px rgba(0, 0, 0, 0.2);
-    border-bottom: none;
-  }
-
 }
