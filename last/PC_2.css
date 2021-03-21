@@ -26,7 +26,7 @@
     font-size: 30px;
     font-family: "游明朝 Light";
     margin-left: 20px;
-	margin-bottom: 10px;
+	margin-bottom: 20px
   }
 	.honbun{
 		min-height: 100vh;
@@ -35,6 +35,7 @@
     list-style: none;
     margin:0px;
     font-family: "游明朝 Light";
+	font-size: 13px;
   }
   #itemB {
     grid-row: 1/2;
