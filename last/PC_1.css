@@ -1,7 +1,3 @@
-@font-face {
-	font-family:'HG教科書体';
-	src:url();
-}
 @media print, screen and (min-width: 640px) {
   body{
     margin: 0;
@@ -10,13 +6,17 @@
     margin: 0;
     background: #fec4b9;
     font-size: 20px;
-    font-family: "HG教科書体";
-    height: 100px;
+   /* font-family: "HG教科書体";*/
+    height: 120px;
     width: auto;
+
   }
 
   h1 {
     margin: 0;
+	font-family: permanent-marker-pro,sans-serif;
+	  font-weight: 400;
+	  font-style: normal;
 
   }
 
@@ -26,6 +26,9 @@
   }
 
   .botaaa {
+	font-family: roboto,sans-serif;
+	  font-weight: 100;
+	  font-style: italic;
     margin-right: 20px;
     display: inline-block;
     margin-top: -30px;
