@@ -16,21 +16,30 @@
     padding: 15px;
     font-size: 40px;
     text-align: center;
+	font-family: permanent-marker-pro,sans-serif;
+	  font-weight: 400;
+	  font-style: normal;
+	
   }
 
   header {
     background: #fec4b9;
     font-size: 15px;
-    font-family: "HG教科書体";
+    /*font-family: "HG教科書体";*/
     height: 150px;
 
   }
 
   .menu {
     text-align: center;
+	
   }
 
   .botaaa {
+	font-family: roboto,sans-serif;
+	  font-weight: 100;
+	  font-style: italic;
+    margin-right: 20px;
     margin-right: 10px;
     display: inline-block;
     margin-top: 10px;
